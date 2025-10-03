@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-avenir: 'Avenir', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --swiper-theme-color: #666;
+  --swiper-navigation-size: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-avenir);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Swiper Styles */
+.swiper {
+  width: 100%;
+  padding: 20px 0 70px 0;
+  position: relative;
+}
+
+.swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+/* Swiper Scrollbar */
+.swiper-scrollbar {
+  position: relative;
+  touch-action: none;
+  background: rgba(0, 0, 0, 0.15);
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.swiper-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+}
+
+/* Custom Navigation Buttons */
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-prev-custom:hover,
+.swiper-button-next-custom:hover {
+  transform: scale(1.1);
+}
+
+.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  pointer-events: none;
+}
