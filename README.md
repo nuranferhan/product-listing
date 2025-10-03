@@ -24,7 +24,7 @@
 ## Project Overview
 
 <div align="center">
-<img width="100%" alt="Image" src="https://github.com/user-attachments/assets/c61de300-eff9-414e-9249-24983c1e0679" /></div>
+<img width="80%" alt="Image" src="https://github.com/user-attachments/assets/c61de300-eff9-414e-9249-24983c1e0679" /></div>
 
 *Product Listing* is a modern, responsive e-commerce product showcase application built with Next.js 14, TypeScript, and Tailwind CSS. The application demonstrates advanced web development capabilities including real-time gold pricing integration, dynamic product filtering, interactive carousels, and professional-grade UI/UX design patterns.
 
@@ -409,3 +409,4 @@ This project is licensed under the MIT License - see the <LICENSE> file for deta
 -----
 
 *Tech Stack:* Next.js 14 • TypeScript • Tailwind CSS • Swiper.js • React 18 • Vercel
+
